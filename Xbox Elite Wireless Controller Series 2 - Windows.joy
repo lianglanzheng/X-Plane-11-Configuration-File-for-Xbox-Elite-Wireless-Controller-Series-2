@@ -1,0 +1,84 @@
+I
+1100 Version
+JOY
+
+OS: Windows
+
+Name: Xbox Bluetooth Gamepad
+ID: VID:0x045ePID:0x0b05
+Display: Xbox Elite Wireless Controller Series 2
+
+View: Front
+--------------------------------------------------------------
+Image: Xbox-Elite-Wireless-Controller-Series-2-Front.png
+
+Configuration Group 1: 363 200
+Configuration Group 2: 688 327
+
+Button 4 (L Shoulder): 369 62
+Button 5 (R Shoulder): 786 62
+
+Button 6 (Back): 517 200
+Button 7 (Start): 639 200
+
+Button 3 (Y): 794 144
+Button 2 (X): 736 200
+Button 1 (B): 850 199
+Button 0 (A): 793 257
+
+Hat Switch 0 (Direction Pad): 468 338
+
+View: Back
+--------------------------------------------------------------
+Image: Xbox-Elite-Wireless-Controller-Series-2-Back.png
+
+Axis 4 (Left & Right Trigger; y): 341 92
+
+Assignments:
+--------------------------------------------------------------
+Axis 4: joy_use_hdng reverse
+Axis 4 Type: centerable
+
+Configuration Group 1 (Left Stick): Axis 1 0 Button 8
+Axis 1: joy_use_roll
+Axis 1 Type: centerable
+Axis 0: joy_use_ptch
+Axis 0 Type: centerable
+Button 8: sim/autopilot/servos_off_any
+
+Configuration Group 2 (Right Stick): Axis 3 2 Button 9
+Axis 3: joy_use_view_lr
+Axis 3 Type: centerable
+Axis 2: joy_use_view_ud reverse
+Axis 2 Type: centerable
+Button 9: sim/view/default_view
+
+Axis 0 Calibration: Auto
+Axis 1 Calibration: Auto
+Axis 2 Calibration: Auto
+Axis 3 Calibration: Auto
+Axis 4 Calibration: Auto
+
+# X
+Button 2: sim/engines/thrust_reverse_toggle
+# B
+Button 1: sim/flight_controls/brakes_toggle_regular
+# Y
+Button 3: sim/flight_controls/speed_brakes_toggle
+# A
+Button 0: sim/flight_controls/landing_gear_toggle
+
+Hat Switch 0 Direction 1: sim/engines/throttle_up
+Hat Switch 0 Direction 3: sim/flight_controls/flaps_up
+Hat Switch 0 Direction 5: sim/engines/throttle_down
+Hat Switch 0 Direction 7: sim/flight_controls/flaps_down
+
+# Back Btn
+Button 6: sim/operation/pause_toggle
+# Start Btn
+Button 7: sim/map/show_current
+
+# Left shoulder button
+Button 4: sim/general/zoom_out
+# Right shoulder button
+Button 5: sim/general/zoom_in
